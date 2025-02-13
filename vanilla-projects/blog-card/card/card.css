@@ -52,8 +52,6 @@ header img{
    padding: 5px 10px;
    
  }
- 
-
 .date-publish{
    color: hsl(0, 0%, 7%);
    font-weight: 500;
@@ -63,7 +61,7 @@ header img{
    font-size: 25px;
    font-weight: 800;
    margin: 0 0 1rem 0;
-   padding-bottom: 20px;
+   
 }
 
 .sub-title{
@@ -79,9 +77,11 @@ header img{
    align-items: center;
    font-weight: 800;
    gap: 10px;
-   
-
 }
 .img-info{
    width: 35px;
+}
+
+footer a{
+   text-decoration: none;
 }
