@@ -23,7 +23,6 @@ body{
    border-radius: 15px;
    background-color: hsl(0, 0%, 100%);
    width: 300px;
-   
    padding: 0 20px 20px 20px;
    
 }
@@ -32,17 +31,21 @@ body{
    width: 100%;
    margin-top: 20px;
    border-radius: 10px;
+   display: block;
    
 }
 .title{
    font-weight: 700;
-   max-width: 200px;
-   margin: 10px auto;
+   font-size: 20px;
+   margin: 10px 0;
+   text-align: center;
+   color: hsl(218, 44%, 22%);
 }
 
 .sub-title{
    color: hsl(216, 15%, 48%);
    text-align: center;
+   margin-bottom: 15px;
 }
 .attribution a{
    text-decoration: none;
