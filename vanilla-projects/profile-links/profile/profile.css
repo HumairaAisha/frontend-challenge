@@ -31,8 +31,6 @@ body{
   
 }
 .img-title{
-   justify-self: center;
-   display: block;
    width: 20%;
    border-radius: 100px;
    margin: 0 0 1rem 0;
@@ -52,12 +50,12 @@ body{
 .details{
    font-size: 12px;
    font-weight: 400;
-   margin: 0 0 1rem 0;
+   margin: 0 0 1.5rem 0;
 }
 .social-links{
    display: flex;
    flex-direction: column;
-   gap: 12px;
+   gap: 15px;
 }
 .social-link{
    background-color: hsl(0, 0%, 20%);
