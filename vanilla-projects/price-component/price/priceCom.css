@@ -58,7 +58,7 @@ header {
 .subscript{
    display: flex;
    gap: 1rem;
-   margin-top: 1rem;
+   
 }
 .month {
    grid-area: month;
@@ -79,9 +79,10 @@ header {
 .sub-duration{
    color: hsl(204, 43%, 93%);
    font-size: 1rem;
+   
 }
 .sub-details{
-   margin: 2rem 0;
+   margin: 1rem 0 2rem 0;
 }
 
 button{
@@ -90,7 +91,7 @@ button{
   padding: 1rem 6rem;
   border: none; 
   border-radius: 5px;
-  box-shadow: black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   font-size: 1rem;
  
 }
@@ -102,7 +103,7 @@ button{
    color: white;
 }
 .about-title{
-   font-size: 1.5rem;
+   font-size: 1rem;
    font-weight: 700;
    color: hsl(204, 43%, 93%);
    margin-bottom: 1rem;
