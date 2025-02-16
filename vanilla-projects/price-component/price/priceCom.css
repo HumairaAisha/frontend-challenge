@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&family=Young+Serif&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   height: 100vh;
+   background-color: hsl(204, 43%, 93%);
+   font-family: "Karla", serif;
+}
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;  
+}
+
+.card{
+   box-shadow: hsl(0, 0%, 12%);
+   background-color: white;
+   width: min(40rem, 90%);
+   border-radius: 10px; 
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-areas: "header header" "month about";
+}
+header {
+   grid-area: header;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   padding: 2rem; 
+}
+
+.title{
+   color: hsl(179, 62%, 43%);
+   font-size: 1.5rem;
+   font-weight: 700;
+   margin: 1rem 0;
+  
+}
+.subtitle{
+   color: hsl(71, 73%, 54%);
+   font-size: 1.2rem;
+   font-weight: 700;
+}
+.details{
+   color: hsl(218, 22%, 67%);
+   font-size: 1rem;
+   line-height: 1.5;
+   
+}
+.subscript{
+   display: flex;
+   gap: 1rem;
+   margin-top: 1rem;
+}
+.month {
+   grid-area: month;
+   background-color: hsl(179, 62%, 43%);
+   padding: 2rem;
+   color: white;
+   border-bottom-left-radius: 10px;
+   
+}
+.sub-title{
+   font-size: 1rem;
+   margin-bottom: 1rem;
+}
+.sub-amount{
+   font-size: 2rem;
+   font-weight: 700;
+}
+.sub-duration{
+   color: hsl(204, 43%, 93%);
+   font-size: 1rem;
+}
+.sub-details{
+   margin: 2rem 0;
+}
+
+button{
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  padding: 1rem 6rem;
+  border: none; 
+  border-radius: 5px;
+  box-shadow: black;
+  font-size: 1rem;
+ 
+}
+.about {
+   grid-area: about;
+   background-color: hsl(179, 62%, 43%, 0.8);
+   padding: 2rem;
+   border-bottom-right-radius: 10px;
+   color: white;
+}
+.about-title{
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: hsl(204, 43%, 93%);
+   margin-bottom: 1rem;
+}
+.about-details{
+   font-size: 1rem;
+   line-height: 1.5;
+   color: hsl(204, 43%, 93%);
+}
+
+@media (max-width: 480px){
+   .card{
+      grid-template-columns: 1fr;
+      grid-template-areas: "header" "month" "about";
+   }
+   .month{
+      border-radius: 0;
+   } 
+   .about{
+      border-radius: 0 0 1rem 1rem;
+   }
+}
