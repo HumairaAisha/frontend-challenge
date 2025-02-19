@@ -9,6 +9,7 @@
 body{
    background-color: hsl(257, 40%, 49%);
    background-image: url(./images/bg-desktop.svg);
+   
    color: white;
    padding: 2rem;
 }
@@ -22,7 +23,7 @@ body{
 }
 .huddle-page{
    display: flex;
-   padding-top: 4rem;
+   padding-top: 5rem;
      
 }
 h1{
@@ -37,7 +38,7 @@ h1{
    font-family: "Open Sans", serif;
    align-items: center;
    justify-content: center;
-   padding: 3rem 1rem 0 2rem ;
+   padding: 4rem 1rem 0 2rem ;
 }
 .huddle-bg{
    padding-top: 1rem;
@@ -46,7 +47,7 @@ h1{
 button{
    padding: 0.8rem 3rem;
    border: none;
-   border-radius: 50px;
+   border-radius: 100px;
    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
    background-color: white;
    color: hsl(257, 40%, 49%);
@@ -77,4 +78,48 @@ p{
    padding: 0.3rem;
    border-radius: 50px;
    border: 1px solid white;
+}
+
+@media (max-width: 480px){
+   body{
+      background-repeat: no-repeat;
+      background-position: top;
+      background-image: url(./images/bg-mobile.svg);
+     
+   }
+   
+   .huddle-img{
+      width: 100px;
+   }
+   .huddle-bg{
+      width: 100%;
+   }
+   .huddle-page{
+      display: block;
+      padding-top: 1rem;
+   }
+   h1{
+      text-align: center;
+      font-size: 1.2rem;
+      margin-top: 0;
+      max-width: 300px;
+   }
+   p{
+      font-size: 0.83rem;
+      text-align: center;
+   }
+   button{
+      padding: 0.5rem 4rem;
+      
+   }
+   .icons{
+      justify-content: center;
+      margin: 2.5rem 0 1rem 0 ;
+   }
+   .huddle-about{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
 }
