@@ -93,6 +93,7 @@ p{
    }
    .huddle-bg{
       width: 100%;
+      padding-top: 3rem;
    }
    .huddle-page{
       display: block;
