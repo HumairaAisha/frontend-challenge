@@ -51,22 +51,35 @@ body{
 }
 
 button{
-   border: 2px solid hsl(0, 0%, 95%);
+   border: none;
    font-family: "Lexend Deca", serif;
    font-weight: 400;
    padding: 0.5rem 1rem;
    border-radius: 20px;
    cursor: pointer;
+   background-color: hsl(0, 0%, 95%);
+   margin: 4rem 0 1rem 0;
+}
+.suvs-btn{
+   margin-top: 3rem;
+   color: hsl(184, 100%, 22%);
+}
+.sedan-btn{
+   color: hsl(31, 77%, 52%);
+}
+.lux-btn{
+   color: hsl(179, 100%, 13%);
+}
+button:hover{
    background-color: transparent;
    color: hsl(0, 0%, 95%);
-   margin-top: 5rem;
+   border: 2px solid hsl(0, 0%, 95%);
 }
 h1{
    font-family: "Big Shoulders Display", serif;
    font-size: 2rem;
    font-weight: 700;
-   margin-bottom: 1rem;
-   
+   margin-bottom: 1rem;  
 }
 p {
    font-family: "Lexend Deca", serif;
@@ -79,3 +92,32 @@ p {
 img{
    margin:1rem 0
 }
+
+@media (max-width: 400px){
+   .container{
+      margin: 3rem 0;
+   }
+   .card{
+      width: 100%;
+      padding: 3rem;
+      grid-template-columns: 1fr;
+      grid-template-areas: "sedans-grid" "suvs-grid" "lux-grid";
+   }
+   .sedans-grid{
+      border-radius: 8px 8px 0 0;
+   }
+   .lux-grid{
+      border-radius: 0 0 8px 8px;
+   }
+   button{
+      margin: 0 0 1rem 0;
+   }
+   
+   p{
+      margin-bottom: 2rem;
+   }
+   .suvs-btn{
+      margin-top: 0;
+   }
+}
+
