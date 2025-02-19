@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background-image: url(./images/bg-header-desktop.png);
+   font-family: "Bai Jamjuree", serif;
+   background-repeat: no-repeat;
+   background-position: top;
+}
+header{
+   padding-top: 10rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.logo-img{
+   width: 70px;
+}
+.title-head{
+   font-size: 2.5rem;
+   color: hsl(210, 10%, 33%);
+   margin-top: 2rem;
+}
+.subtitle-head{
+   font-size: 1.1rem;
+   color: hsl(201, 11%, 66%);
+   max-width: 600px;
+   text-align: center;
+   margin: 1rem 0;
+   line-height: 2;
+   font-weight: 400;
+}
+
+button{
+   color: white;
+   font-size: 1rem;
+   border: none;
+   padding: 1rem 2.5rem;
+   border-radius: 50px;
+   cursor: pointer;
+   margin: 0.5rem;
+}
+.btn-mac{
+   background-color: hsl(233, 100%, 69%);
+}
+.btn-mac:hover{
+   background-color: hsl(233, 60%, 68%);
+}
+
+.btn-ios{
+   background-color: hsl(171, 66%, 44%);
+}
+.btn-ios:hover{
+   background-color: hsl(172, 48%, 58%);
+}
+
+/* footer*/
+footer{
+   background-color: hsl(201, 11%, 66%);
+}
+.more-links{
+   display: flex;
+   align-items: center;
+   
+}
+

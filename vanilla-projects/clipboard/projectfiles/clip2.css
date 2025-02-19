@@ -1,0 +1,125 @@
+
+.snippets{
+   padding-top: 7rem;
+}
+
+.track-title{
+   text-align: center;
+   color: hsl(210, 10%, 33%);
+   font-size: 2rem;
+}
+.track-subtitle{
+   text-align: center;
+   color: hsl(201, 11%, 66%);
+   max-width: 700px;
+}
+.search-snippets{
+   display: flex;
+   padding-top: 4rem;
+}
+.search-img{
+   width: 600px;
+   padding-left:-3rem;
+}
+.search{
+   padding-left: 5rem;
+}
+h2{
+   color: hsl(210, 10%, 33%);
+   margin: 0.5rem 0;
+}
+.search-title{
+   padding-top: 2.5rem;
+}
+
+.search-sub, .sync-sub, .history-sub{
+   color: hsl(201, 11%, 66%);
+   padding-bottom: 2.5rem;
+   font-size: 0.9rem;
+   max-width: 300px;
+   line-height: 1.5; 
+}
+
+.clicks-access{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 7rem;
+   text-align: center;
+}
+
+.click-title{
+   color: hsl(210, 10%, 33%);
+   text-align: center;
+   font-size: 2rem;
+}
+.click-subtitle{
+   color: hsl(201, 11%, 66%);
+   text-align: center;
+   margin-top: 2rem;
+   max-width: 500px;
+   line-height: 2;
+}
+.click-img{
+   margin-top: 7rem;
+}
+
+/* Features section*/
+.features{
+   display: flex;
+   align-items: center;
+   padding: 5rem 5rem;
+   text-align: center;
+   gap: 15px;
+   
+}
+.sec3-title{
+   margin-top: 2rem;
+   color: hsl(210, 10%, 33%);
+   font-size: 2rem;
+   text-align: center;
+}
+.sec3-subtitle{
+   color: hsl(201, 11%, 66%);
+   text-align: center;
+   margin-top: 2rem;
+}
+.features p{
+   color: hsl(201, 11%, 66%);
+   font-size: 1rem;
+   max-width: 600px;
+   
+}
+.logos-img{
+   display: flex;
+   align-items: center;
+   gap: 100px;
+   padding: 0 7rem;
+   width: 100px;
+}
+
+/*download section*/
+
+.available{
+   padding-top: 7rem;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+}
+.download-title{
+   margin: 1.5rem 0;
+   color: hsl(210, 10%, 33%);
+
+}
+.download-sub{
+   max-width: 600px;
+   color: hsl(201, 11%, 66%);
+   line-height: 2;
+   margin-bottom: 3rem;
+}
+
+.btn-load{
+   margin-bottom: 3rem;
+}
