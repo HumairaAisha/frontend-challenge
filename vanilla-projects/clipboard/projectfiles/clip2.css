@@ -12,6 +12,7 @@
    text-align: center;
    color: hsl(201, 11%, 66%);
    max-width: 700px;
+   margin: 0 auto;
 }
 .search-snippets{
    display: flex;
@@ -19,7 +20,7 @@
 }
 .search-img{
    width: 600px;
-   padding-left:-3rem;
+   margin-left:-3rem;
 }
 .search{
    padding-left: 5rem;
@@ -34,7 +35,7 @@ h2{
 
 .search-sub, .sync-sub, .history-sub{
    color: hsl(201, 11%, 66%);
-   padding-bottom: 2.5rem;
+   margin-bottom: 2.5rem;
    font-size: 0.9rem;
    max-width: 300px;
    line-height: 1.5; 
@@ -122,4 +123,42 @@ h2{
 
 .btn-load{
    margin-bottom: 3rem;
+}
+
+/*Mobile View*/
+
+@media (max-width: 480px){
+   .track-title{
+      font-size: 1.5rem;
+      max-width: 300px;
+      text-align: center;
+      margin: 0 auto;
+   }
+   .track-subtitle{
+      font-size: 0.9rem;
+      margin-top: 2rem;
+      text-align: center;
+      max-width: 270px;
+   }
+   .search-snippets{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+   .search-img{
+      width: 300px;
+      align-items: center;
+      display: block;
+      margin: 0;
+      justify-content: center;
+   }
+   h2{
+      text-align: center;
+      font-size: 1rem;
+      margin-top: 2.5rem;
+   }
+   .search-sub, .sync-sub, .history-sub{
+      text-align: center;
+      margin: 1rem auto;
+   }
 }
