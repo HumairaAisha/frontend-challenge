@@ -85,7 +85,6 @@ a:hover{
 .more-info{
    align-items: center;
    display: flex;
-   
    padding: 0 5rem;
 }
 
@@ -112,7 +111,7 @@ figure img{
    body{
       width: 100%;
       background-image: url(./images/bg-header-mobile.png);
-      background-repeat: no-repeat;
+     
       
    }
    header{
@@ -136,5 +135,24 @@ figure img{
       flex-direction: column;
       text-align: center;
      
+   }
+   .more-info{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 0;
+   }
+   .more-links{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 3rem;
+   }
+   .links-column{
+      margin: 0;
+      gap: 10px;
+   }
+   .social-icons{
+      gap: 30px;
    }
 }

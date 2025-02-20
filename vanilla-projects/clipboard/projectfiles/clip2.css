@@ -58,7 +58,7 @@ h2{
 .click-subtitle{
    color: hsl(201, 11%, 66%);
    text-align: center;
-   margin-top: 2rem;
+   margin: 1rem auto;
    max-width: 500px;
    line-height: 2;
 }
@@ -109,19 +109,19 @@ h2{
    text-align: center;
    align-items: center;
 }
-.download-title{
+.action-title{
    margin: 1.5rem 0;
    color: hsl(210, 10%, 33%);
 
 }
-.download-sub{
+.action-sub{
    max-width: 600px;
    color: hsl(201, 11%, 66%);
    line-height: 2;
    margin-bottom: 3rem;
 }
 
-.btn-load{
+.btn-action{
    margin-bottom: 3rem;
 }
 
@@ -132,13 +132,15 @@ h2{
       font-size: 1.5rem;
       max-width: 300px;
       text-align: center;
-      margin: 0 auto;
+      margin: 1rem auto;
    }
    .track-subtitle{
       font-size: 0.9rem;
       margin-top: 2rem;
       text-align: center;
       max-width: 270px;
+      margin: 0 auto;
+      line-height: 1.5;
    }
    .search-snippets{
       display: flex;
@@ -149,7 +151,7 @@ h2{
       width: 300px;
       align-items: center;
       display: block;
-      margin: 0;
+      margin: 0 auto;
       justify-content: center;
    }
    h2{
@@ -157,8 +159,73 @@ h2{
       font-size: 1rem;
       margin-top: 2.5rem;
    }
+   
    .search-sub, .sync-sub, .history-sub{
       text-align: center;
+      
+   }
+   .simple-clicks {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      max-width: 300px;
+      margin: 0 auto;
+   }
+   .click-title{
+      font-size: 1.5rem;
+      margin-top: 0;
+   }
+   .click-subtitle{
+      margin-top: 0;
+   }
+   .click-img{
+      align-items: center;
+      margin-top: 4rem;
+   }
+   .sec3-title{
+      font-size: 1.5rem;
+      max-width: 300px;
+      text-align: center;
+      margin: 0 auto;
+   }
+   .sec3-subtitle{
+      text-align: center;
+      max-width: 300px;
       margin: 1rem auto;
+      line-height: 1.5;
+   }
+   .features{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      
+   }
+   .features p{
+      max-width: 500px;
+      font-size: 0.9rem;
+      text-align: center;
+      margin: 2rem auto;
+   }
+   .logos-img{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+   }
+   .action-title{
+      font-size: 1.5rem;
+      text-align: center;
+      max-width: 300px;
+      margin: 0 auto;
+   }
+   .action-sub{
+      text-align: center;
+      max-width: 300px;
+      margin: 0 auto;
+      margin-top: 1rem;
+   }
+   .btn-action{
+      text-align: center;
+      margin: 2rem 0 10rem 0;
    }
 }
