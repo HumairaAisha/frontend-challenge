@@ -147,6 +147,7 @@ figure img{
       flex-direction: column;
       text-align: center;
       margin-bottom: 3rem;
+      width: 100%;
    }
    .links-column{
       margin: 0;
@@ -154,5 +155,11 @@ figure img{
    }
    .social-icons{
       gap: 30px;
+   }
+   figure img{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
    }
 }
