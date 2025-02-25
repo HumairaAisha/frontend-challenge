@@ -6,7 +6,7 @@
 }
 
 h1, h2{
-   font-family: "Poppins", serif;
+   font-family: "Poppins", sans-serif;
    font-weight: 600;
    color: hsl(192, 100%, 9%);
 }
@@ -27,6 +27,10 @@ button{
    cursor: pointer;
    border: none;
    border-radius: 100px;
+   
+}
+button:hover{
+   background-color: hsl(321, 82%, 85%);
    
 }
 .hero{
@@ -108,6 +112,7 @@ button{
   
 }
 
+
 .sec-flow, .sec-users{
    display: flex;
    flex-direction: column;
@@ -119,4 +124,83 @@ button{
    margin: 7rem 0 7rem 10rem;
    
 }
+.call-to-action{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 9rem;
+}
+.card-action{
+  display: flex;
+  width: 50%;
+  box-shadow: 8px 8px 20px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  justify-content: center;
+  
+  
+}
+.action-text{
+   margin: 5rem 0 2rem 0;
+}
+.action-btn{
+   display: flex;
+   background-color: hsl(322, 100%, 66%);
+   padding: 1rem 4rem;
+   color: white;
+   font-size: 1rem;
+   margin-bottom: 3rem;
+}
 
+footer{
+   display: flex;
+   align-items: center;
+   background-color: hsl(192, 100%, 9%);
+   color: white;
+   font-family: "Open Sans",serif;
+}
+
+
+.info-logo{
+  color: white;
+}
+.info-location,.info-contact,.info-email{
+   display: flex;
+   margin: 2rem 0;
+   gap: 20px;
+   
+}
+.huddle-info{
+   margin: 5rem 0 4rem 2rem;
+}
+
+.more-info{
+   display: flex;
+   gap: 50px;
+}
+ul li{
+   list-style-type: none;
+}
+.more-info a{
+   color: hsl(193, 100%, 96%);
+   cursor: pointer;
+   text-decoration: none;
+}
+.more-info a:hover{
+   text-decoration: underline;
+}
+
+.social-links a{
+   color: hsl(193, 100%, 96%);
+   border-radius: 100px;
+   border: 1px solid;
+   padding: 0.3rem;
+   
+   
+}
+.social-links a:hover{
+   color: hsl(322, 100%, 66%);
+}
+.links{
+   display: flex;
+   justify-content: flex-end;
+}
