@@ -1,0 +1,116 @@
+@media (max-width: 480px) {
+   .container{
+      width: 100%;
+   }
+   .hero{
+      display: flex;
+      flex-direction: column;
+      background-image: url(./images/bg-hero-mobile.svg);
+      background-color: hsl(193, 100%, 96%);
+      padding: 2.5rem 1.5rem;
+   }
+   .hero-about{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .hero-title{
+      font-size: 2rem;
+      margin-top: 6rem;
+      text-align: center;
+      max-width: 500px;
+   }
+   .hero-subtitle{
+      font-size: 1.3rem;
+      max-width: 400px;
+      text-align: center;
+      margin: 2rem auto;
+      line-height: 1.5;
+   }
+   .hero-text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .hero-btn{
+      margin-top: 0;
+   }
+   .bg-img{
+      width: 400px;
+      margin-left: 0;
+      margin-top: 4rem;
+   }
+   /*Section 2*/
+   .sec-grow{
+      margin-top: 5rem;
+   }
+   .card{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: auto;
+
+   }
+   .grow,.user{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin: 0;
+   }
+   .grow-img, .flow-img, .users-img{
+      width: 250px;
+      align-items: center;
+      margin: 3rem auto 2rem auto;
+   }
+   .text-grow, .text-flow, .text-users{
+      margin: 0;
+      text-align: center;
+   }
+   .grow-details, .flow-subtitle, .user-subtitle{
+      max-width: 300px;
+      font-size: 1rem;
+      margin: 0 auto 3rem auto;
+   }
+   .card-action{
+      width: 90%;
+      height: auto;
+   }
+   .action-text{
+      margin: 3rem 0 2rem 0;
+      font-size: 1.3rem;
+      max-width: 500px;
+   }
+
+   footer{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: none;
+   }
+   .huddle-contact, .info-about, .links{
+      margin: 0.5rem 1.5rem;
+   }
+   .huddle-info{
+      margin: 5rem 0 0 0;
+   }
+   .info-logo{
+      margin-top: 3rem ;
+   }
+   .more-info{
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+   }
+   ul li{
+      margin: 0.9rem;
+   }
+   .links{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      text-align: center;
+      margin: 0 auto;
+   }
+   
+}

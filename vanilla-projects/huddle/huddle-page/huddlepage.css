@@ -29,16 +29,7 @@ button{
    border-radius: 100px;
    
 }
-button:hover{
-   background-color: hsl(321, 82%, 85%);
-   
-}
-header{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   width: 100%;
-}
+
 .hero{
    display: flex;
    flex-direction: column;
@@ -55,7 +46,11 @@ header{
    padding: 0.5rem 2.5rem;
    font-size: 0.9rem;
    display: flex;
+   margin: -3rem 0 3rem -5rem;
    justify-self: flex-end;
+}
+.head-btn:hover{
+   color: hsl(187, 23%, 92%);
 }
 .hero-about{
    display: flex;
@@ -81,6 +76,9 @@ header{
    color: white;
    margin-top: 1.5rem;
    font-weight: 700;
+}
+.hero-btn:hover{
+   background-color: hsl(321, 82%, 85%);
 }
 /* Section 2*/
 .sec-grow{
@@ -170,6 +168,9 @@ header{
    font-size: 1rem;
    margin-bottom: 3rem;
 }
+.action-btn:hover{
+   background-color: hsl(321, 82%, 85%);
+}
 
 footer{
    display: flex;
@@ -246,15 +247,13 @@ ul li{
    margin: 1rem;
 }
 .links p{
+   font-size: 0.8rem;
    margin: 2rem 0;
 }
 .huddle-contact, .info-about, .links{
-   margin: 3rem 3rem;
+   margin: 3rem;
 }
 .social-links{
-   margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
-.links p{
-   font-size: 0.8rem;
-   bottom: 0;
-}
+
