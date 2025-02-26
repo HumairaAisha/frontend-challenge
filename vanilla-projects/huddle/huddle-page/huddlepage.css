@@ -33,6 +33,12 @@ button:hover{
    background-color: hsl(321, 82%, 85%);
    
 }
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
 .hero{
    display: flex;
    flex-direction: column;
@@ -92,7 +98,7 @@ button:hover{
    width: 90%;
    height: 20rem;
    border-radius: 10px;
-   box-shadow: 8px 8px 20px 8px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 /* Section Image*/
 .grow-img,  .users-img{
@@ -129,15 +135,29 @@ button:hover{
    flex-direction: column;
    align-items: center;
    margin-top: 9rem;
+   /*To make the Card on top of the footer z-index*/
+   z-index: 10;
+   position: relative;
+   margin-bottom: -5rem;
+   
+   
 }
 .card-action{
   display: flex;
   width: 50%;
-  box-shadow: 8px 8px 20px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   justify-content: center;
+  background-color: white;
   
   
+}
+.action{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+
 }
 .action-text{
    margin: 5rem 0 2rem 0;
@@ -157,11 +177,28 @@ footer{
    background-color: hsl(192, 100%, 9%);
    color: white;
    font-family: "Open Sans",serif;
+   position: relative;
+   justify-content: space-between;
+   
+  
 }
 
 
 .info-logo{
-  color: white;
+   width: 150px;
+   /* To make the logo color to white*/
+   filter: brightness(0) invert(1);
+  
+}
+.info img{
+   width: 20px;
+   height: 20px;
+}
+.info-location img{
+   height: 30px;
+}
+.info p{
+   font-size: 0.8rem;
 }
 .info-location,.info-contact,.info-email{
    display: flex;
@@ -179,6 +216,8 @@ footer{
 }
 ul li{
    list-style-type: none;
+   margin: 1rem 0;
+   font-size: 0.9rem;
 }
 .more-info a{
    color: hsl(193, 100%, 96%);
@@ -191,9 +230,10 @@ ul li{
 
 .social-links a{
    color: hsl(193, 100%, 96%);
-   border-radius: 100px;
+   border-radius: 50%;
    border: 1px solid;
-   padding: 0.3rem;
+   padding: 0.5rem;
+   gap: 10px;
    
    
 }
@@ -202,5 +242,19 @@ ul li{
 }
 .links{
    display: flex;
-   justify-content: flex-end;
+   align-items: flex-end;
+   margin: 1rem;
+}
+.links p{
+   margin: 2rem 0;
+}
+.huddle-contact, .info-about, .links{
+   margin: 3rem 3rem;
+}
+.social-links{
+   margin-top: 1.5rem;
+}
+.links p{
+   font-size: 0.8rem;
+   bottom: 0;
 }
