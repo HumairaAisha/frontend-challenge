@@ -1,7 +1,5 @@
 @media screen and (max-width: 480px) {
-   .container{
-      width: 100%;
-   }
+   
    .head-btn{
       padding: 0.3rem 1.5rem;
       margin: -2rem 0 0 3rem;
@@ -10,8 +8,7 @@
       width: 120px;
    }
    .hero{
-      display: flex;
-      flex-direction: column;
+      display: block;
       background-image: url(./images/bg-hero-mobile.svg);
       background-color: hsl(193, 100%, 96%);
       padding: 2.5rem 1.5rem;
@@ -53,8 +50,8 @@
       margin-top: 5rem;
    }
    .card{
-      display: flex;
-      flex-direction: column;
+      display: block;
+      
       width: 80%;
       height: auto;
 
@@ -93,8 +90,8 @@
    }
 
    .more{
-      display: flex;
-      flex-direction: column;
+      display: block;
+     
       align-items: start;
       justify-content: none;
    }

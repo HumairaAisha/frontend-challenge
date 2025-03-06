@@ -14,7 +14,7 @@ h2{
    font-size: 1.8rem;
    margin-bottom: 1rem;
 }
-p{
+p, a{
    font-family: "Open Sans", serif;
    font-weight: 400;
    color: hsl(208, 11%, 55%);
@@ -26,8 +26,7 @@ button{
    font-weight: 700;
    cursor: pointer;
    border: none;
-   border-radius: 100px;
-   
+   border-radius: 100px; 
 }
 
 .hero{
@@ -91,18 +90,17 @@ button{
    display: flex;
    
 }
+
 .card{
    display: flex;
    width: 90%;
-   height: 20rem;
    border-radius: 10px;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 /* Section Image*/
-.grow-img,  .users-img{
+.grow-img, .users-img{
    width: 300px;
-   display: flex;
-   flex-direction: column;
+   display: block;
    margin: 2rem 0 2rem 9rem;
 }
 .flow-img{
@@ -117,13 +115,21 @@ button{
 }
 
 
-.sec-flow, .sec-users{
+.sec-flow{
    display: flex;
    flex-direction: column;
    align-items: center;
    margin-top: 2rem;
 }
-
+.sec-users{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 2rem;
+}
+.user{
+   display: flex;
+}
 .text-flow{
    margin: 7rem 0 7rem 10rem;
    
@@ -220,12 +226,12 @@ ul li{
    margin: 1rem 0;
    font-size: 0.9rem;
 }
-.more-info a{
+ a{
    color: hsl(193, 100%, 96%);
    cursor: pointer;
    text-decoration: none;
 }
-.more-info a:hover{
+a:hover{
    text-decoration: underline;
 }
 
