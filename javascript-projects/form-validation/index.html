@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="form.css">
+   <title>Form Validation</title>
+</head>
+<body>
+   <form action="" id="validationForm">
+      <div>
+         <label for="name">Name</label>
+         <input type="text" id="name" placeholder="Enter Your Full name" >
+         <span id="nameError" class="error"></span>
+      </div>
+
+      <div>
+         <label for="email">Email</label>
+         <input type="email" id="email" placeholder="username@gmail.com" pattern="+@gmail.com" title="Please provide a valid email address">
+         <span id="emailError" class="error"></span>
+      </div>
+
+      <div>
+         <label for="password">Password</label>
+         <input type="password" id="password" minlength="6" title="password must be atleast 6 characters" placeholder="Password atleast 6 chracters">
+         <span id="passwordError" class="error"></span>
+      </div>
+      <button type="submit" value="submit" id="btn-submit">Submit</button>
+   </form>
+  
+   <script src="form.js"></script>
+</body>
+</html>
