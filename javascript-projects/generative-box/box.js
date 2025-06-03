@@ -6,12 +6,12 @@ function getRandomBox(min, max) {
 }
 // function to get random color
 function getRandomColor() {
-   const r = getRandomBox(0, 225);
+   const r = getRandomBox(0, 225); //using rgb color range from (0 - 225)
    const g = getRandomBox(0, 225);
-   const b = getRandomBox(0, 225)
+   const b = getRandomBox(0, 225);
    const color = `rgb(${r},${g},${b})`;
 
-   // console.log(color); //to check on colors
+   // console.log(color); //to check on which rgb color range was generated on the random box
    return color;
    
    
