@@ -23,7 +23,7 @@ newBox.addEventListener('click', () => {
    const box = document.createElement('div'); // create a new div
    //console.log(box); // to check the features of the box generated
    
-   const boxSize = getRandomBox(50, 500)
+   const boxSize = getRandomBox(50, 300)
    console.log(boxSize); // to check what size of random box was generated 
    
    const posX = getRandomBox(0, window.innerWidth - boxSize);
